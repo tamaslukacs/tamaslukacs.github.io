@@ -371,13 +371,6 @@
 <div id="t1_1" class="t s1">|</div>
 <div id="t2_1" class="t s2"><div class="phone" data-tel="+44 75-6565-2449"><a href="#" style="text-decoration:none; color:black;">Show Number</a>
 </div></div>
-<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
-<script src="js/hide-phone-num.js"></script>
-<script>
-  $('.phone').hidePhoneNum({
-  showNumber: 4,
-  linkClass: 'tel-link' });
-</script>
 <div id="t3_1" class="t s1">|</div>
 <div id="t4_1" class="t s2">Cambridge, UK </div>
 <div id="t5_1" class="t s1">|</div>
@@ -642,11 +635,16 @@
 <!-- End text definitions -->
 </div>
 	</div>
-	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src=js/jquery-3.4.1.min.js></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap-4.4.1.js"></script>
-	
 	<script src="js/hide-phone-num.min.js"></script> 
+	<script src="js/hide-phone-num.js"></script>
+	<script>
+	  $('.phone').hidePhoneNum({
+	  showNumber: 4,
+	  linkClass: 'tel-link' });
+	</script>
 </body>
 </html>
