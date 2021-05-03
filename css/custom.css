@@ -1,0 +1,13 @@
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 650px; /* or 950px */
+}
+
+h1mod {
+  margin-top: 0.5rem;
+  margin-bottom: 0.0rem;
+  font-weight: 500;
+  line-height: 10pt;
+  font-size: 2.5rem;
+}

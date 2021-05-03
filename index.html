@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Resume Page Template</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.4.1mod2.css" rel="stylesheet">
+	<link href="css/buttons.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container ">
+      <div class="row justify-content-center">
+		  <div class="col-md-3 col-sm-3 col-xs-6"><a href="portfolio_flip.html" class="btn btn-sm animated-button victoria-one" >View Portfolio</a></div>
+
+		  <div class="col-md-3 col-sm-3 col-xs-6"> <a href="javascript:refreshIframe();" class="btn btn-sm animated-button victoria-three">Curruculum Vitae </a> </div>
+		  <div class="col-md-3 col-sm-3 col-xs-6"> <a href="assets/Tamas_Lukacs_CV_03052021.pdf" class="btn btn-sm animated-button victoria-two" >Downlad CV as PDF</a></div>
+		  </div>
+	  </div>
+		<div class="row">
+            <div class="col-12">
+              <div style="text-align:center;"><iframe name="cont" style="display:auto;"
+ width="910" height="1300" src="cv.html" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            </div>
+  </div>
+      <footer class="text-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p>Copyright© Tamas Lukacs. All rights reserved.</p>
+            </div>
+          </div>
+		
+        </div>
+      </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.4.1.js"></script>
+  <script>
+function refreshIframe() {
+    var ifr = document.getElementsByName('cont')[0];
+    ifr.src = ifr.src;
+	}
+</script>
+  </body>
+</html>
